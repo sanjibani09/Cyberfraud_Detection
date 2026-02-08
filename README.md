@@ -20,6 +20,7 @@ Visualize fraud risk distribution
 Simulate real-world fraud monitoring systems
 
 Key Features
+
 ✅ Fraud Risk Prediction
 
 Predicts fraud probability (0–100%)
@@ -30,11 +31,11 @@ Uses a trained Random Forest Classifier
 
 Based on risk score:
 
-< 10% → ✅ Approved
+10% → ✅ Approved
 
 10–40% → ⚠️ Review Required
 
-> 40% → ⛔ Block Transaction
+40% → ⛔ Block Transaction
 
 ✅ Explainable AI (SHAP)
 
@@ -98,6 +99,7 @@ Cyberfraud_Detection/
 └── feedback/
     └── feedback_log.csv            # User feedback 
 </pre>
+
 ⚙️ Technologies Used
 
 Python 3
@@ -114,6 +116,7 @@ Streamlit – Web application
 
 Joblib – Model persistence
 📦 Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/your-username/Cyberfraud_Detection.git
 cd Cyberfraud_Detection
@@ -143,7 +146,7 @@ View explanation (SHAP)
 
 View fraud risk distribution
 
-📊 Model Performance (Sample)
+📊 Model Performance
 Accuracy: 93%
 Fraud Recall: 70%
 
